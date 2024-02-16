@@ -459,7 +459,7 @@ Q: What will each of our group members be focusing on?
 
 Q: Are we planning to take this project beyond the class?
 
-# **Out of Scope**
+## Out of Scope
 
 No non-player humans involved in traffic systems
 
