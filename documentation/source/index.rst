@@ -6,6 +6,6 @@ Welcome to CS-GameDesignCompetition's documentation!
 
    /forDevelopers/ProductRequirementsDocument
 
-   /forDevelopers/documentation/SoftwareDevelopmentProcess
+   /forDevelopers/SoftwareDevelopmentProcess
 
-   /forDevelopers/documentation/SoftwareDesignAndArchitecture
+   /forDevelopers/SoftwareDesignAndArchitecture
