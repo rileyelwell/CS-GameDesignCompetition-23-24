@@ -1,4 +1,5 @@
-Welcome to Secure Centralized Logging System's documentation!
+Welcome to CS-GameDesignCompetition's documentation!
+
 .. toctree::
    :maxdepth: 2
    :caption: For Developers
