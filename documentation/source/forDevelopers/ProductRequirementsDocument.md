@@ -100,7 +100,7 @@ of desires for project
 For Enjoyment Users -- request feedback after version releases, take
 note of desires for project
 
-# Preliminary Context
+## Preliminary Context
 
 ## Assumptions
 
