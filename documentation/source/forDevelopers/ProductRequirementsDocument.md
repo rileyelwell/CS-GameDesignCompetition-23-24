@@ -1,6 +1,6 @@
-# **Product Requirements Document**
+# Product Requirements Document
 
-## **Problem Description**
+## Problem Description
 
 Learning to drive on the road has been easier for some people due to
 driving simulators. Driving simulators are able to help people
@@ -12,7 +12,7 @@ function in today's world.
 
 Driving simulators are very fun to play and race in.
 
-## **Scope**
+## Scope
 
 The scope for our project is limited to driving traditional modern
 vehicles in accurate-to-reality settings. Our settings are to only have
@@ -28,7 +28,7 @@ traffic systems).
 Our market is towards both reckless gamers and those genuinely learning
 to drive.
 
-## **Use Cases**
+## Use Cases
 
 For the following use cases, we will assume each user will start the
 game and be brought to a isometric, birds eye view of a city, they then
@@ -58,7 +58,7 @@ and set everything to their liking. Once to their liking they select to
 save their settings and now their current and future playthroughs will
 use those settings until altered again.
 
-# **Purpose and Vision (Background)**
+## Purpose and Vision (Background)
 
 Our purpose is to create a driving simulator game that provides users
 with a realistic, modern driving experience that can be used for both a
@@ -74,7 +74,7 @@ that users can play feeling as if they were driving in the real world.
 Something that can prove useful for those in driving education and
 racing games.
 
-# **Stakeholders**
+## Stakeholders
 
 Potential Employers -- no updates, no decisions
 
@@ -100,9 +100,9 @@ of desires for project
 For Enjoyment Users -- request feedback after version releases, take
 note of desires for project
 
-# **Preliminary Context**
+# Preliminary Context
 
-## **Assumptions**
+## Assumptions
 
 The game will run on Unreal Engine
 
@@ -122,7 +122,7 @@ The game is first person for realism
 
 The game wants all non-player characters to avoid collisions at any cost
 
-## **Constraints**
+## Constraints
 
 We are not to use paid tools not provided by OSU
 
@@ -134,7 +134,7 @@ We have 3 people working on the project
 
 Our group members each have at least 3 years of college experience
 
-## **Dependencies**
+## Dependencies
 
 We need our workplace and tools setup on each group member's machine
 before we can begin development
@@ -143,7 +143,7 @@ We need a functional prototype before we can implement advanced features
 
 We need our MVP complete before we can work towards our stretch goals
 
-# **Market Assessment and Competition Analysis**
+## Market Assessment and Competition Analysis
 
 Forza: The game looks very realistic and the driving controls feel
 realistic, however the game is also very forgiving with mistakes, has no
@@ -178,7 +178,7 @@ geared more towards fun than simulation.
 Many game engines have quality physics systems and other tools that have
 no reason not to be used for our project.
 
-# **Target Demographics (User Persona)**
+## Target Demographics (User Persona)
 
 Archibald and Barthalamult are first year OSU students checking out the
 engineering expo. They are wanting to find a cool project to have fun
@@ -198,9 +198,9 @@ Casual vs Competitive
 
 Platform (PC)
 
-# **Requirements**
+## Requirements
 
-## **User Stories and Features (Functional Requirements)**
+## User Stories and Features (Functional Requirements)
 
   -----------------------------------------------------------------------------------------
   **User Story**                 **Feature**   **Priority**   **GitHub   **Dependencies**
@@ -288,7 +288,7 @@ Platform (PC)
   a winner for the competition.                                          
   -----------------------------------------------------------------------------------------
 
-## **Non-Functional Requirements**
+## Non-Functional Requirements
 
 The quicker the response time the better, but it must feel fluid/be
 playable
@@ -299,7 +299,7 @@ The game should have minimal frame drops
 
 The game should run spectacularly acceptably on an average grade of PC
 
-## **Data Requirements**
+## Data Requirements
 
 Game\
 - Player player\
@@ -332,11 +332,11 @@ Vehicle\
 - int topspeed (Any other vehicle behavior variables)\
 - bool functional
 
-## **Integration Requirements**
+## Integration Requirements
 
 The game will likely be fully developed using Unreal Engine 5
 
-## **User Interaction and Design**
+## User Interaction and Design
 
 Startup: Opening the game brings the user to a menu screen that gives
 the user 5 options from there: Play, Select Map, Select Vehicle,
@@ -390,7 +390,7 @@ height="2.1249956255468065in"}
 
 ![](media/image1.png){width="5.0in" height="2.447952755905512in"}
 
-# **Milestones and Timeline**
+## Milestones and Timeline
 
 > 1\. Create Workspace
 >
@@ -428,7 +428,7 @@ height="2.1249956255468065in"}
 >
 > 12\. Create Menu/Settings/Pause Screens
 
-# **Goals and Success Metrics**
+## Goals and Success Metrics
 
   -----------------------------------------------------------------------------
   **Goal**         **Metric**        **Baseline**   **Target**     **Tracking
@@ -451,7 +451,7 @@ height="2.1249956255468065in"}
                    game?                                           
   -----------------------------------------------------------------------------
 
-# **Open Questions**
+## Open Questions
 
 Q: Will we port the game to other consoles/controller schemes?
 
