@@ -1,6 +1,6 @@
-# **Software Design & Architecture**
+# Software Design & Architecture
 
-# Introduction
+## Introduction
 
 This document outlines the architecture for a 3D driving-based
 simulation/game that uses ADAS heavily. The chosen architecture needs to
@@ -8,7 +8,7 @@ ensure stability, performance, pseudorealism, realistic physics, and the
 ability to demonstrate creativity. It should also allow us to create our
 application for multiple operating systems (Windows, Linux, Mac).
 
-# Architectural Goals and Principles
+## Architectural Goals and Principles
 
 The architecture should allow for:
 
@@ -27,7 +27,7 @@ The architecture should allow for:
 -   Good graphic capabilities to make realistic-looking vehicles and
     environments
 
-# System Overview
+## System Overview
 
 Our system will store our assets (models, art, graphics) and scripts
 (code) for the project inside of Unreal Engine 5. The game engine will
@@ -36,7 +36,7 @@ necessary files. In terms of code specifically, we want to structure
 using OOP (in C++) to enhance readability, stability, and inheritance
 qualities.
 
-# Architectural Patterns
+## Architectural Patterns
 
 We would likely use a layered architecture for our project; these layers
 include:
@@ -105,7 +105,7 @@ include:
 > Handles the interaction between players and servers for multiplayer
 > capabilities
 
-# Component Descriptions
+## Component Descriptions
 
 -   User Interface: Handles user interactions, displays data (vehicle
     speed, current objective, etc.), and provides navigation to other
@@ -120,14 +120,14 @@ include:
     server to handle the connections and a database to hold data for
     each user.
 
-# Data Management
+## Data Management
 
 This section does not apply to our project. We should not need a
 database to store user information inside the game. Unless we decide to
 implement a user-saved game system, multiplayer, or some other save
 mechanic, the game engine handles most of the work for us.
 
-# Interface Design
+## Interface Design
 
 Unreal Engine provides many of the tools necessary to make UI production
 fairly simple. Once we decide on an actual design, we can use these
@@ -136,7 +136,7 @@ needing third-party services. We aim to keep the interface clean,
 utilize as little space as possible, and always be informative to the
 user (without distracting from the actual simulation).
 
-# Considerations
+## Considerations
 
 ## Security
 
@@ -168,7 +168,7 @@ to provide updates later on, we would focus on new ideas for mechanics,
 bug fixes, or requested features from users who have tested the game for
 us.
 
-# Deployment Strategy
+## Deployment Strategy
 
 This section only somewhat applies to us because we have been told to
 focus on our own local machines. Our product will not be deployed
@@ -180,7 +180,7 @@ each term, with new features, bug fixes, or patches. With these
 releases, we can also have users test the functions and gain feedback on
 the program.
 
-# Testing Strategy
+## Testing Strategy
 
 As mentioned above, we will likely never ship our product past our local
 environments, unless we desire to. This means our testing will be done
@@ -188,7 +188,7 @@ locally inside Unreal Engine or Windows computers. The testing results
 may differ depending on our machines, which will help us compare
 benchmarks for potential users.
 
-# Glossary
+## Glossary
 
 ADAS - Advanced Driver Assistance System
 
