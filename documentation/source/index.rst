@@ -4,8 +4,8 @@ Welcome to CS-GameDesignCompetition's documentation!
    :maxdepth: 2
    :caption: For Developers
 
-   forDevelopers/Product Requirements Document <ProductRequirementsDocument>
+   /forDevelopers/Product Requirements Document <ProductRequirementsDocument>
 
-   forDevelopers/documentation/Software Development Process <SoftwareDevelopmentProcess>
+   /forDevelopers/documentation/Software Development Process <SoftwareDevelopmentProcess>
 
-   forDevelopers/documentation/Software Design & Architecture <SoftwareDesignAndArchitecture>
+   /forDevelopers/documentation/Software Design & Architecture <SoftwareDesignAndArchitecture>
